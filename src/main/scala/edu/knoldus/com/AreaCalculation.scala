@@ -7,7 +7,7 @@ class AreaCalculation {
       case "Parallelogram" => s"Area of Parallelogram is ${f(first, second)}"
       case "Rectangle" => s"Area of rectangle is ${f(first, second)}"
       case "rhombus" => s"Area of rhombus ${f(first, second)}"
-      case _ => "invalid shape"
+      case _ => "Not defined"
 
 
     }
